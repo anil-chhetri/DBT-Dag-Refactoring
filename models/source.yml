@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: tcph
+    database: raw
+    schema: public
+    loader: Manual data load
+
+    quoting:
+      database: false
+      identifier: false
+      schema: false
+
+    tables:
+      # - name: customer
+      # - name: lineItem
+      - name: nation
+      - name: part
+      - name: partsupp
+      - name: region
+      - name: supplier
+      # - name: order
